@@ -20,6 +20,8 @@ gem "aasm"
 gem "htmlentities"
 gem "swf_fu"
 gem "rails_autolink"
+gem "cache_digests" #, :git => 'git://github.com/rails/cache_digests.git'
+gem "rack-mini-profiler"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -57,6 +59,7 @@ group :development do
   end
   gem "yard"
   gem "tolk"
+  gem "bullet"
 end
 
 group :test do
